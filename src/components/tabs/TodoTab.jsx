@@ -29,7 +29,6 @@ function TodoTab() {
       
       {todos.length && (
         <div className="todos-container">
-          <div className="items-count">Items: {todos.length}</div>
           {todos.map((todo, index) => (
             <div key={index} className="todo-item">
               <span>{todo}</span>
